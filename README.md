@@ -82,5 +82,5 @@ Usage
 
 $client = new \nusoap_client('http://example.com/url/to/some/valid.wsdl', true);
 
-$response = $client->call(’someSOAPMethod’, array('param1'=>'foo', 'param2'=>'bar'));
+$response = $client->call('someSOAPMethod', array('param1'=>'foo', 'param2'=>'bar'));
 ```
