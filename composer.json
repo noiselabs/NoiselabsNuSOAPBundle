@@ -33,7 +33,7 @@
         "nusphere/nusoap": "0.9.5"
     },
     "autoload": {
-        "psr-0": { "NoiseLabs\\Bundle\\NoiselabsNuSOAPBundle": "" }
+        "psr-0": { "NoiseLabs\\Bundle\\NuSOAPBundle": "" }
     },
     "target-dir": "NoiseLabs/Bundle/NuSOAPBundle",
     "minimum-stability": "dev"
