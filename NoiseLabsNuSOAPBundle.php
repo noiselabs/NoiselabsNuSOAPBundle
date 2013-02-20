@@ -20,7 +20,7 @@
  *
  * @category    NoiseLabs
  * @package     NuSOAPBundle
- * @copyright   (C) 2012-2013 Vítor Brandão <noisebleed@noiselabs.org>
+ * @copyright   (C) 2012-2013 Vítor Brandão <vitor@noiselabs.org>
  * @license     http://www.gnu.org/licenses/lgpl-3.0-standalone.html LGPL-3
  * @link        http://www.noiselabs.org
  */
@@ -32,7 +32,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * NuSOAP Bundle.
  *
- * @author Vítor Brandão <noisebleed@noiselabs.org>
+ * @author Vítor Brandão <vitor@noiselabs.org>
  */
 class NoiseLabsNuSOAPBundle extends Bundle
 {
