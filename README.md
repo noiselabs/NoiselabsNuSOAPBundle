@@ -27,11 +27,37 @@ curl -s http://getcomposer.org/installer | php
 
 ### 1. Add the noiselabs/nusoap-bundle package and the nusoap repository in your composer.json
 
+#### 1.1 Require section
+
+Add the line to the require section of your json file, by adding a comma ( , ) at the end of the last line and paste "noiselabs/nusoap-bundle": "dev-master" before the finish bracket ( } )
 ```js
-{
+
     "require": {
-        "noiselabs/nusoap-bundle": "dev-master"
-    },
+            "php": ">=5.3.3",
+            "symfony/symfony": "~2.4",
+            //...
+            "doctrine/doctrine-fixtures-bundle": "2.2.*",
+            "noiselabs/nusoap-bundle": "dev-master"
+
+```
+#### 1.1 Repository section
+
+Add a new repository to tell composer where to find the bundle ( check if you have "," after "}" from extra section, if not add it )
+
+```js
+
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        },
+        "branch-alias": {
+            "dev-master": "2.4-dev"
+        }
+        
+    }, 
+    
     "repositories": [
         {
             "type": "package",
@@ -47,8 +73,10 @@ curl -s http://getcomposer.org/installer | php
                 }
             }
         }
-    ],
-}
+    ]
+
+} //end bracket of json file
+
 ```
 Now tell composer to download the bundle by running the command:
 
