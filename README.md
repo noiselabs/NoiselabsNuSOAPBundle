@@ -38,6 +38,7 @@ Add the line to the require section of your json file, by adding a comma ( , ) a
             //...
             "doctrine/doctrine-fixtures-bundle": "2.2.*",
             "noiselabs/nusoap-bundle": "dev-master"
+            } //end bracket of require section
 
 ```
 #### 1.1 Repository section
