@@ -16,11 +16,11 @@
  * License along with NoiseLabs-NuSOAPBundle; if not, see
  * <http://www.gnu.org/licenses/>.
  *
- * Copyright (C) 2012-2013 Vítor Brandão
+ * Copyright (C) 2012-2015 Vítor Brandão
  *
  * @category    NoiseLabs
  * @package     NuSOAPBundle
- * @copyright   (C) 2012-2013 Vítor Brandão <vitor@noiselabs.org>
+ * @copyright   (C) 2012-2015 Vítor Brandão <vitor@noiselabs.org>
  * @license     http://www.gnu.org/licenses/lgpl-3.0-standalone.html LGPL-3
  * @link        http://www.noiselabs.org
  */
