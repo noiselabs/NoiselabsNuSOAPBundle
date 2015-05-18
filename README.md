@@ -7,6 +7,12 @@ NoiselabsNuSOAP
 
 [Symfony2][@symfony] bundle for [NuSOAP - SOAP Toolkit for PHP][@nusoap].
 
+[![Latest Stable Version](https://poser.pugx.org/noiselabs/nusoap-bundle/v/stable)](https://packagist.org/packages/noiselabs/nusoap-bundle)
+[![Total Downloads](https://poser.pugx.org/noiselabs/nusoap-bundle/downloads)](https://packagist.org/packages/noiselabs/nusoap-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/noiselabs/nusoap-bundle/v/unstable)](https://packagist.org/packages/noiselabs/nusoap-bundle)
+[![Build Status](https://travis-ci.org/noiselabs/NoiselabsNuSOAPBundle.svg?branch=master)](https://travis-ci.org/noiselabs/NoiselabsNuSOAPBundle)
+[![License](https://poser.pugx.org/noiselabs/nusoap-bundle/license)](https://packagist.org/packages/noiselabs/nusoap-bundle)
+
 Requirements
 ------------
 
