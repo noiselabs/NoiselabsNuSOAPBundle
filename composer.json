@@ -30,12 +30,12 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "symfony/framework-bundle": ">=2.0",
+        "symfony/framework-bundle": "~2.0",
         "nusphere/nusoap": "0.9.5"
     },
     "autoload": {
-        "psr-0": { "NoiseLabs\\Bundle\\NuSOAPBundle": "" }
-    },
-    "target-dir": "NoiseLabs/Bundle/NuSOAPBundle",
-    "minimum-stability": "dev"
+        "psr-4": {
+          "NoiseLabs\\Bundle\\NuSOAPBundle\\": ""
+        }
+    }
 }

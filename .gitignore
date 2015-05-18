@@ -4,3 +4,12 @@
 # Vendor
 vendor/*
 
+# PhpStorm
+.idea/
+
+# OSX
+.DS_Store
+
+# Composer
+composer.lock
+
