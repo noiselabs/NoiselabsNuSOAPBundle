@@ -56,6 +56,6 @@ class NoiseLabsNuSOAPExtension extends Extension
      */
     public function getAlias()
     {
-        return 'noiselabs_nusoap';
+        return 'noise_labs_nu_soap';
     }
 }
