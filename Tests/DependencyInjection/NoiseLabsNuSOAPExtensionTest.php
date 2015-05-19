@@ -37,14 +37,14 @@ class NoiseLabsNuSOAPExtensionTest extends \PHPUnit_Framework_TestCase
     {
         $extension = new NoiseLabsNuSOAPExtension();
 
-        $this->assertEquals('noiselabs_nusoap', $extension->getAlias());
+        $this->assertEquals('noise_labs_nu_soap', $extension->getAlias());
     }
 
     public function testLoadFromExtension()
     {
         $container = $this->createContainer();
         $container->registerExtension(new NoiseLabsNuSOAPExtension());
-        $container->loadFromExtension('noiselabs_nusoap', array());
+        $container->loadFromExtension('noise_labs_nu_soap', array());
     }
 
     /**
